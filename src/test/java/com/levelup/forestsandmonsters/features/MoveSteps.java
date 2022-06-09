@@ -1,11 +1,9 @@
 package com.levelup.forestsandmonsters.features;
-import static org.junit.Assert.assertEquals;
 
 
 import com.levelup.forestsandmonsters.GameController;
 
 import io.cucumber.java.en.Given;
-import io.cucumber.core.logging.Logger;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -35,7 +33,7 @@ public class MoveSteps {
         this.moveCount = moveCount;
     }
 
-    @And("the player choses to move in {string}" )
+    @And("the player choses to move in {word}" )
     public void moveDirection (GameController.DIRECTION direction) {
         this.direction = direction;
     }

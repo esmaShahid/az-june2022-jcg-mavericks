@@ -1,6 +1,5 @@
 package com.levelup.forestsandmonsters;
 
-import java.awt.Point;
 
 public class GameController {
     // TODO: If your stakeholder wants to call this CHARACTER, change var name for
