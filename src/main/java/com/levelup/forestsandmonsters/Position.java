@@ -3,6 +3,8 @@ package com.levelup.forestsandmonsters;
 public class Position {
    
     int startPositionX, startPositionY, endPositionX, endPositionY;
+
+    //WHERE ARE THESE METHODS IN YOUR DESIGN?
     
     public int getStartPositionX() {
         return startPositionX;

@@ -21,6 +21,8 @@ public class CharacterTest {
         assertNotNull(testObj.name != null);
 
     }
+
+    //I'm guessing you were experimenting. The name of this method is...well...not a good name
     @Test
     public void testCase1() {
         
